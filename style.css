@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 100%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div, section, ul, li, a, header{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 17px;
+}
+#menu li a{
+    color: #bcc2c2;
+    text-decoration: none;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+
+}
+#home{
+    background-image: url("IMAGES/home2.jpg");
+    background-position: right;
+    background-size: cover;
+}
+#portrait{
+    background-image: url("IMAGES/portrait.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#nature{
+    background-image: url("IMAGES/nature.jpg");
+    background-position: right;
+    background-size: cover;
+}
+#animals{
+    background-image: url("IMAGES/animals.jpg");
+    background-position: right;
+    background-size: cover;
+}
+#urban{
+    background-image: url("IMAGES/urban.jpeg");
+
+    background-position: right;
+    background-size: cover;
+}
+h1{
+    position: absolute;
+    top: 25%;
+    text-transform: uppercase;
+    color: #dbd7d2;
+    left: 10%;
+    //transform: translate(-50%, -50%);
+}
